@@ -38,7 +38,7 @@ async function submit() {
             type="text"
             required
             minlength="3"
-            placeholder="your_username"
+            placeholder="username"
             class="w-full border border-gray-300 rounded-[5px] px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
         </div>
