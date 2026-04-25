@@ -113,7 +113,7 @@ const handleDelete = async (id: number) => {
             </svg>
           </button>
         </div>
-
+ 
         <div class="flex gap-2 shrink-0">
           <button
             @click="store.sortBy = 'createdAt'"
