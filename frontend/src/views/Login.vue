@@ -19,7 +19,7 @@ const handleLogin = async () => {
     await auth.login({ username: username.value, password: password.value })
     router.push('/notes')
   } catch (err: any) {
-    error.value = err.response?.data?.message || 'Login failed'
+    error.value = 'The entered credentials were not correct'
   } finally {
     loading.value = false
   }
