@@ -1,0 +1,28 @@
+# ===== Backend (.NET) =====
+backend/bin/
+backend/obj/
+backend/*.user
+backend/.vs/
+
+# ===== Frontend (Node) =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.log
+
+# ===== IDE / Editor =====
+.vs/
+.vscode/
+.idea/
+*.swp
+*.suo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Secrets =====
+*.env
+*.env.local
+appsettings.Development.json
+appsettings.Production.json
